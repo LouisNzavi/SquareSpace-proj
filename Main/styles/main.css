@@ -18,6 +18,17 @@ body h1 h2 h3 {
   margin-left: 40px;
 }
 
+/*HERO SECTION*/
+
+.main-top {
+  display: flex;
+  justify-items: center;
+}
+
+.main-heading {
+  display: flex;
+}
+
 /*Navbar Styles*/
 /* UTILITIES */
 * {
@@ -134,7 +145,7 @@ input[type="checkbox"] {
     transform: translateX(35%);
   }
   .dropdown li:hover {
-    background-color: beige;
+    background-color: white;
   }
 }
 
