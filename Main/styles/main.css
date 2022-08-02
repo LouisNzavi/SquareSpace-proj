@@ -22,12 +22,21 @@ body h1 h2 h3 {
 
 .main-top {
   display: flex;
-  justify-items: center;
+  text-align: center;
 }
 
-.main-heading {
-  display: flex;
+.main-heading > h1 {
+  text-align: center;
+  vertical-align: middle;
 }
+
+.main-para > p {
+  text-align: center;
+}
+
+/* .main-link > a {
+  text-align: center;
+} */
 
 /*Navbar Styles*/
 /* UTILITIES */
